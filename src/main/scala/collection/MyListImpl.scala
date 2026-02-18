@@ -1,6 +1,6 @@
 package collection
 
-object MyListImplementation extends App {
+object MyListImpl extends App {
 
   sealed trait MyList[+A] {
     def isEmpty: Boolean
